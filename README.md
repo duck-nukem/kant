@@ -24,6 +24,12 @@ Kant Dark:
 
 Both color schemes are provided as ".icls" files, which you can import into an Intellij editor from the Settings panel.
 
-This is what doing that looks like on a Mac:
-
 <img src="settings.png">
+
+More minimalism:
+
+* disable gutter icons
+* hide tool window bars (toggle them on-demand with a shortcut)
+* use a monospace custom font
+
+<img src="custom_font.png">
