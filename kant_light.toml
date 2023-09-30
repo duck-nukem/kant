@@ -1,14 +1,14 @@
-"type" = { fg = "fg", modifiers = ["bold"] }
-"constant" = { fg = "lgray", modifiers = ["bold"] }
-"constant.numeric" = "lgray"
+"type" = "fg"
+"constant" = "fg"
+"constant.numeric" = "fg"
 "constant.character.escape" = "fg"
 "string" = "lgray"
 "string.regexp" = "lgray"
 "comment" = "gray"
 "variable" = "fg"
-"variable.builtin" = { fg = "fg", modifiers = ["bold"] }
-"variable.parameter" = { fg = "fg", modifiers = ["bold"] }
-"variable.other.member" = { fg = "fg", modifiers = ["bold"] }
+"variable.builtin" = "fg"
+"variable.parameter" = "fg"
+"variable.other.member" = "fg"
 "label" = "gray"
 "punctuation" = "gray"
 "punctuation.delimiter" = "gray"
@@ -21,10 +21,10 @@
 "function.macro" = "fg"
 "tag" = "gray"
 "namespace" = "fg"
-"attribute" = { fg = "fg", modifiers = ["bold"] }
+"attribute" = "fg"
 "constructor" = "fg"
-"module" = { fg = "fg", modifiers = ["bold"] }
-"special" = { fg = "fg", modifiers = ["bold"] }
+"module" = "fg"
+"special" = "fg"
 
 "markup.heading.marker" = "gray"
 "markup.heading.1" = { fg = "fg", modifiers = ["bold"] }
@@ -49,7 +49,7 @@
 "ui.background.separator" = "gray"
 "ui.cursor" = { fg = "white", bg = "black" }
 "ui.cursor.match" = { fg = "fg", bg = "gray" }
-"ui.cursor.insert" = { fg = "white", bg = "black" }
+"ui.cursor.insert" = { fg = "red", bg = "black" }
 "ui.cursor.select" = { fg = "white", bg = "black" }
 "ui.cursorline.primary" = { bg = "bg" }
 "ui.cursorline.secondary" = { bg = "bg" }
@@ -67,13 +67,14 @@
 "ui.window" = { fg = "gray", bg = "bg" }
 "ui.help" = { fg = "fg", bg = "bg" }
 "ui.text" = "fg"
-"ui.text.focus" = "gray"
+"ui.text.focus" = "fg"
 "ui.menu" = { fg = "fg", bg = "bg" }
 "ui.menu.selected" = { fg = "bg", bg = "gray" }
 "ui.virtual.whitespace" = { fg = "bg" }
 "ui.virtual.indent-guide" = { fg = "bg" }
 "ui.virtual.ruler" = { bg = "bg" }
 "ui.virtual.inlay-hint" = "hints"
+"ui.highlight" = {fg = "white", bg = "black"}
 
 "hint" = "blue"
 "info" = "green"

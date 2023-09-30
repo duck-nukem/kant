@@ -1,14 +1,14 @@
-"type" = { fg = "fg", modifiers = ["bold"] }
-"constant" = { fg = "lgray", modifiers = ["bold"] }
-"constant.numeric" = "lgray"
+"type" = "fg"
+"constant" = "fg"
+"constant.numeric" = "fg"
 "constant.character.escape" = "fg"
 "string" = "lgray"
 "string.regexp" = "lgray"
 "comment" = "gray"
 "variable" = "fg"
-"variable.builtin" = { fg = "fg", modifiers = ["bold"] }
-"variable.parameter" = { fg = "fg", modifiers = ["bold"] }
-"variable.other.member" = { fg = "fg", modifiers = ["bold"] }
+"variable.builtin" = "fg"
+"variable.parameter" = "fg"
+"variable.other.member" = "fg" 
 "label" = "gray"
 "punctuation" = "gray"
 "punctuation.delimiter" = "gray"
@@ -21,10 +21,10 @@
 "function.macro" = "fg"
 "tag" = "gray"
 "namespace" = "fg"
-"attribute" = { fg = "fg", modifiers = ["bold"] }
+"attribute" = "fg"
 "constructor" = "fg"
-"module" = { fg = "fg", modifiers = ["bold"] }
-"special" = { fg = "fg", modifiers = ["bold"] }
+"module" = "fg"
+"special" = "fg"
 
 "markup.heading.marker" = "gray"
 "markup.heading.1" = { fg = "fg", modifiers = ["bold"] }
@@ -53,7 +53,7 @@
 "ui.cursor.select" = { fg = "black", bg = "gray" }
 "ui.cursorline.primary" = { bg = "bg" }
 "ui.cursorline.secondary" = { bg = "bg" }
-"ui.selection" = { bg = "gray" }
+"ui.selection" = { bg = "white", fg = "black" }
 "ui.linenr" = "gray"
 "ui.linenr.selected" = "fg"
 "ui.statusline" = { fg = "fg", bg = "bg" }
