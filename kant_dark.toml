@@ -1,0 +1,93 @@
+"type" = { fg = "fg", modifiers = ["bold"] }
+"constant" = { fg = "lgray", modifiers = ["bold"] }
+"constant.numeric" = "lgray"
+"constant.character.escape" = "fg"
+"string" = "lgray"
+"string.regexp" = "lgray"
+"comment" = "gray"
+"variable" = "fg"
+"variable.builtin" = { fg = "fg", modifiers = ["bold"] }
+"variable.parameter" = { fg = "fg", modifiers = ["bold"] }
+"variable.other.member" = { fg = "fg", modifiers = ["bold"] }
+"label" = "gray"
+"punctuation" = "gray"
+"punctuation.delimiter" = "gray"
+"punctuation.bracket" = "gray"
+"keyword" = { fg = "fg", modifiers = ["bold"] }
+"keyword.directive" = { fg = "fg", modifiers = ["bold"] }
+"operator" = { fg = "fg", modifiers = ["bold"] }
+"function" = "fg"
+"function.builtin" = "fg"
+"function.macro" = "fg"
+"tag" = "gray"
+"namespace" = "fg"
+"attribute" = { fg = "fg", modifiers = ["bold"] }
+"constructor" = "fg"
+"module" = { fg = "fg", modifiers = ["bold"] }
+"special" = { fg = "fg", modifiers = ["bold"] }
+
+"markup.heading.marker" = "gray"
+"markup.heading.1" = { fg = "fg", modifiers = ["bold"] }
+"markup.heading.2" = { fg = "fg", modifiers = ["bold"] }
+"markup.heading.3" = { fg = "fg", modifiers = ["bold"] }
+"markup.heading.4" = { fg = "fg", modifiers = ["bold"] }
+"markup.heading.5" = { fg = "fg", modifiers = ["bold"] }
+"markup.heading.6" = { fg = "fg", modifiers = ["bold"] }
+"markup.list" = "fg"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = { fg = "blue", modifiers = ["underlined"] }
+"markup.link.text" = "purple"
+"markup.quote" = "gray"
+"markup.raw" = "fg"
+
+"diff.plus" = "green"
+"diff.delta" = "orange"
+"diff.minus" = "red"
+
+"ui.background" = { bg = "bg" }
+"ui.background.separator" = "gray"
+"ui.cursor" = { fg = "white", bg = "gray" }
+"ui.cursor.match" = { fg = "fg", bg = "gray" }
+"ui.cursor.insert" = { fg = "black", bg = "gray" }
+"ui.cursor.select" = { fg = "black", bg = "gray" }
+"ui.cursorline.primary" = { bg = "bg" }
+"ui.cursorline.secondary" = { bg = "bg" }
+"ui.selection" = { bg = "gray" }
+"ui.linenr" = "gray"
+"ui.linenr.selected" = "fg"
+"ui.statusline" = { fg = "fg", bg = "bg" }
+"ui.statusline.inactive" = { fg = "grey", bg = "bg1" }
+"ui.statusline.normal" = { fg = "bg", bg = "fg", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "bg", bg = "yellow", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "bg", bg = "blue", modifiers = ["bold"] }
+"ui.bufferline" = { fg = "grey", bg = "bg1" }
+"ui.bufferline.active" = { fg = "fg", bg = "bg", modifiers = ["bold"] }
+"ui.popup" = { fg = "gray", bg = "bg" }
+"ui.window" = { fg = "gray", bg = "bg" }
+"ui.help" = { fg = "fg", bg = "bg" }
+"ui.text" = "fg"
+"ui.text.focus" = "gray"
+"ui.menu" = { fg = "fg", bg = "bg" }
+"ui.menu.selected" = { fg = "bg", bg = "gray" }
+"ui.virtual.whitespace" = { fg = "bg" }
+"ui.virtual.indent-guide" = { fg = "bg" }
+"ui.virtual.ruler" = { bg = "bg" }
+"ui.virtual.inlay-hint" = "hints"
+
+"hint" = "blue"
+"info" = "green"
+"warning" = "yellow"
+"error" = "red"
+"diagnostic" = { underlined = { style = "line" } }
+"diagnostic.hint" = { underline = { color = "blue", style = "dotted" } }
+"diagnostic.info" = { underline = { color = "green", style = "dotted" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+
+[palette]
+fg = "#FFFFFF"
+bg = "#000000"
+lgray = "#B4B4B4"
+gray = "#7D7D7D"
+hints = "#575757"

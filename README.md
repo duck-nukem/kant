@@ -14,13 +14,25 @@ It is based on the luxurious monochrome color schemes Verdandi and Verdandi Alte
 
 Kant:
 
+In JetBrains:
+
 <img src="kant.png">
+
+In Helix:
+
+<img src="kant_helix_light.png">
 
 Kant Dark:
 
+In JetBrains:
+
 <img src="kant-dark.png">
 
-## How to Install
+In Helix:
+
+<img src="kant_helix_dark.png">
+
+## How to Install (JetBrains)
 
 Both color schemes are provided as ".icls" files, which you can import into an Intellij editor from the Settings panel.
 
@@ -33,3 +45,7 @@ More minimalism:
 * use a monospace custom font
 
 <img src="custom_font.png">
+
+## How to Install (Helix)
+
+Run `hx --health` and check where the `runtime` directories are. Copy the `*.toml` files under the `themes` directory.
