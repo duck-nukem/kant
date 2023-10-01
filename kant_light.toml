@@ -55,7 +55,7 @@
 "ui.cursorline.secondary" = { bg = "bg" }
 "ui.selection" = { fg = "white", bg = "black" }
 "ui.linenr" = "gray"
-"ui.linenr.selected" = { fg = "white", bg = "black"}
+"ui.linenr.selected" = { fg = "fg", modifiers = ["bold"] }
 "ui.statusline" = { fg = "fg", bg = "bg" }
 "ui.statusline.inactive" = { fg = "gray", bg = "bg" }
 "ui.statusline.normal" = { fg = "bg", bg = "fg", modifiers = ["bold"] }
@@ -77,7 +77,6 @@
 "ui.virtual.inlay-hint" = "hints"
 "ui.highlight" = {fg = "red", bg = "popup"}
 "ui.highlight.frameline" = {fg = "white", bg = "black"}
-"ui.gutter.selected" = {fg = "white", bg = "black" }
 
 "hint" = "blue"
 "info" = "green"
