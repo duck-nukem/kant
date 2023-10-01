@@ -16,21 +16,21 @@ Kant:
 
 In JetBrains:
 
-<img src="kant.png">
+<img src="screenshots/jb_light.png">
 
 In Helix:
 
-<img src="kant_helix_light.png">
+<img src="screenshots/hx_light.png">
 
 Kant Dark:
 
 In JetBrains:
 
-<img src="kant-dark.png">
+<img src="screenshots/jb_dark.png">
 
 In Helix:
 
-<img src="kant_helix_dark.png">
+<img src="screenshots/hx_dark.png">
 
 ## How to Install (JetBrains)
 
