@@ -63,7 +63,7 @@
 "ui.statusline.select" = { fg = "bg", bg = "blue", modifiers = ["bold"] }
 "ui.bufferline" = { fg = "grey", bg = "bg1" }
 "ui.bufferline.active" = { fg = "fg", bg = "bg", modifiers = ["bold"] }
-"ui.popup" = { fg = "gray", bg = "bg" }
+"ui.popup" = { fg = "gray", bg = "popup" }
 "ui.window" = { fg = "gray", bg = "bg" }
 "ui.help" = { fg = "fg", bg = "bg" }
 "ui.text" = "fg"
@@ -74,6 +74,7 @@
 "ui.virtual.indent-guide" = { fg = "bg" }
 "ui.virtual.ruler" = { bg = "bg" }
 "ui.virtual.inlay-hint" = "hints"
+"ui.highlight" = { bg = "popup" } 
 
 "hint" = "blue"
 "info" = "green"
@@ -91,3 +92,4 @@ bg = "#000000"
 lgray = "#B4B4B4"
 gray = "#7D7D7D"
 hints = "#575757"
+popup = "#202020"

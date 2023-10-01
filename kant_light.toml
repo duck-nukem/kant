@@ -49,32 +49,35 @@
 "ui.background.separator" = "gray"
 "ui.cursor" = { fg = "white", bg = "black" }
 "ui.cursor.match" = { fg = "fg", bg = "gray" }
-"ui.cursor.insert" = { fg = "red", bg = "black" }
+"ui.cursor.insert" = { fg = "white", bg = "black" }
 "ui.cursor.select" = { fg = "white", bg = "black" }
-"ui.cursorline.primary" = { bg = "bg" }
+"ui.cursorline.primary" = { bg = "black", fg = "white" }
 "ui.cursorline.secondary" = { bg = "bg" }
 "ui.selection" = { fg = "white", bg = "black" }
 "ui.linenr" = "gray"
-"ui.linenr.selected" = "fg"
+"ui.linenr.selected" = { fg = "white", bg = "black"}
 "ui.statusline" = { fg = "fg", bg = "bg" }
-"ui.statusline.inactive" = { fg = "grey", bg = "bg1" }
+"ui.statusline.inactive" = { fg = "gray", bg = "bg" }
 "ui.statusline.normal" = { fg = "bg", bg = "fg", modifiers = ["bold"] }
 "ui.statusline.insert" = { fg = "bg", bg = "yellow", modifiers = ["bold"] }
 "ui.statusline.select" = { fg = "bg", bg = "blue", modifiers = ["bold"] }
-"ui.bufferline" = { fg = "grey", bg = "bg1" }
+"ui.bufferline" = { fg = "gray", bg = "bg" }
 "ui.bufferline.active" = { fg = "fg", bg = "bg", modifiers = ["bold"] }
-"ui.popup" = { fg = "gray", bg = "bg" }
+"ui.popup" = { fg = "gray", bg = "popup" }
 "ui.window" = { fg = "gray", bg = "bg" }
 "ui.help" = { fg = "fg", bg = "bg" }
 "ui.text" = "fg"
-"ui.text.focus" = "fg"
+"ui.text.focus" = { fg = "fg", bg = "bg" }
 "ui.menu" = { fg = "fg", bg = "bg" }
-"ui.menu.selected" = { fg = "bg", bg = "gray" }
+"ui.menu.selected" = { fg = "fg", bg = "gray" }
+"ui.menu.scroll" = {fg = "fg"}
 "ui.virtual.whitespace" = { fg = "bg" }
 "ui.virtual.indent-guide" = { fg = "bg" }
 "ui.virtual.ruler" = { bg = "bg" }
 "ui.virtual.inlay-hint" = "hints"
-"ui.highlight" = {fg = "white", bg = "black"}
+"ui.highlight" = {fg = "red", bg = "popup"}
+"ui.highlight.frameline" = {fg = "white", bg = "black"}
+"ui.gutter.selected" = {fg = "white", bg = "black" }
 
 "hint" = "blue"
 "info" = "green"
@@ -92,3 +95,4 @@ bg = "#FFFFFF"
 lgray = "#575757"
 gray = "#7D7D7D"
 hints = "#B4B4B4"
+popup = "#F6F6F6"
