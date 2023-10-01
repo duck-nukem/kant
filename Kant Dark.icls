@@ -1,10 +1,10 @@
 <scheme name="Kant Dark" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2023-09-30T11:54:26</property>
+    <property name="created">2023-10-01T15:16:47</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2023.2.1.0.0</property>
-    <property name="modified">2023-09-30T11:54:37</property>
+    <property name="modified">2023-10-01T15:16:55</property>
     <property name="originalScheme">Kant Dark</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
@@ -17,7 +17,7 @@
     <option name="CONSOLE_BACKGROUND_KEY" value="151515" />
     <option name="DELETED_LINES_COLOR" value="e06c75" />
     <option name="GUTTER_BACKGROUND" value="151515" />
-    <option name="INDENT_GUIDE" value="30343d" />
+    <option name="INDENT_GUIDE" value="161616" />
     <option name="LINE_NUMBERS_COLOR" value="5c6370" />
     <option name="MODIFIED_LINES_COLOR" value="d19a66" />
     <option name="RIGHT_MARGIN_COLOR" value="5c6370" />
