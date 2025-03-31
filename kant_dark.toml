@@ -1,14 +1,14 @@
-"type" = "fg"
+"type" = "lgray"
 "constant" = "fg"
 "constant.numeric" = "fg"
 "constant.character.escape" = "fg"
-"string" = "lgray"
-"string.regexp" = "lgray"
+"string" = "gray"
+"string.regexp" = "gray"
 "comment" = "gray"
-"variable" = "fg"
-"variable.builtin" = "fg"
-"variable.parameter" = "fg"
-"variable.other.member" = "fg" 
+"variable" = "lgray"
+"variable.builtin" = "lgray"
+"variable.parameter" = "lgray"
+"variable.other.member" = "lgray"
 "label" = "gray"
 "punctuation" = "gray"
 "punctuation.delimiter" = "gray"
@@ -16,10 +16,10 @@
 "keyword" = { fg = "fg", modifiers = ["bold"] }
 "keyword.directive" = { fg = "fg", modifiers = ["bold"] }
 "operator" = { fg = "fg", modifiers = ["bold"] }
-"function" = "fg"
-"function.builtin" = "fg"
+"function" = "lgray"
+"function.builtin" = "lgray"
 "function.macro" = "fg"
-"tag" = "gray"
+"tag" = "fg"
 "namespace" = "fg"
 "attribute" = "fg"
 "constructor" = "fg"
@@ -74,7 +74,7 @@
 "ui.virtual.indent-guide" = { fg = "bg" }
 "ui.virtual.ruler" = { bg = "bg" }
 "ui.virtual.inlay-hint" = "hints"
-"ui.highlight" = { bg = "popup" } 
+"ui.highlight" = { bg = "popup" }
 
 "hint" = "blue"
 "info" = "green"
