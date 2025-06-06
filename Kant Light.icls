@@ -1,28 +1,26 @@
 <scheme name="Kant" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2023-10-01T15:16:22</property>
-    <property name="ide">Python</property>
-    <property name="ideVersion">2023.2.1.0.0</property>
-    <property name="modified">2023-10-01T15:16:30</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2025.1.1.1.0.0</property>
     <property name="originalScheme">Kant</property>
   </metaInfo>
-  <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
-  <option name="CONSOLE_FONT_SIZE" value="11" />
+  <option name="CONSOLE_FONT_NAME" value="Berkeley Mono" />
+  <option name="CONSOLE_FONT_SIZE" value="14" />
   <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="0.6" />
+  <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <colors>
-    <option name="CARET_ROW_COLOR" value="f2f3f5" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="fafbfc" />
+    <option name="CARET_ROW_COLOR" value="F2F3F5" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="FAFBFC" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="" />
-    <option name="FOLDED_TEXT_BORDER_COLOR" value="e3e3e3" />
-    <option name="GUTTER_BACKGROUND" value="fafbfc" />
-    <option name="INDENT_GUIDE" value="fafbfc" />
-    <option name="LINE_NUMBERS_COLOR" value="b3b3b3" />
-    <option name="SELECTED_TEARLINE_COLOR" value="cccccc" />
-    <option name="SELECTION_BACKGROUND" value="c0d8f0" />
+    <option name="FOLDED_TEXT_BORDER_COLOR" value="E3E3E3" />
+    <option name="GUTTER_BACKGROUND" value="FAFBFC" />
+    <option name="INDENT_GUIDE" value="FAFBFC" />
+    <option name="LINE_NUMBERS_COLOR" value="B3B3B3" />
+    <option name="SELECTED_TEARLINE_COLOR" value="CCCCCC" />
+    <option name="SELECTION_BACKGROUND" value="C0D8F0" />
     <option name="SELECTION_FOREGROUND" value="" />
-    <option name="TEARLINE_COLOR" value="e6e6e6" />
+    <option name="TEARLINE_COLOR" value="E6E6E6" />
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
@@ -126,7 +124,6 @@
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
         <option name="FOREGROUND" value="3d3d3d" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
@@ -26084,7 +26081,6 @@
     <option name="PROPERTIES.VALUE">
       <value />
     </option>
-    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.DECORATOR">
       <value>
         <option name="FONT_TYPE" value="1" />
@@ -26100,9 +26096,7 @@
       <value />
     </option>
     <option name="PY.SELF_PARAMETER">
-      <value>
-        <option name="FONT_TYPE" value="2" />
-      </value>
+      <value />
     </option>
     <option name="PY.STRING.B">
       <value>
@@ -26193,6 +26187,17 @@
       </value>
     </option>
     <option name="YAML_ANCHOR">
+      <value />
+    </option>
+    <option name="org.rust.LIFETIME">
+      <value>
+        <option name="FOREGROUND" value="767676" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO">
+      <value />
+    </option>
+    <option name="org.rust.TYPE_PARAMETER">
       <value />
     </option>
   </attributes>
