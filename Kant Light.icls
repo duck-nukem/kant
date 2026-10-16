@@ -1,8 +1,8 @@
 <scheme name="Kant" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2025.1.1.1.0.0</property>
+    <property name="ide">RustRover</property>
+    <property name="ideVersion">2026.2.4.0.0</property>
     <property name="originalScheme">Kant</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Berkeley Mono" />
@@ -26189,6 +26189,37 @@
     <option name="YAML_ANCHOR">
       <value />
     </option>
+    <option name="org.rust.ASSOC_FUNCTION">
+      <value />
+    </option>
+    <option name="org.rust.ASSOC_FUNCTION_CALL">
+      <value />
+    </option>
+    <option name="org.rust.ASSOC_TRAIT_FUNCTION">
+      <value />
+    </option>
+    <option name="org.rust.ASSOC_TRAIT_FUNCTION_CALL">
+      <value />
+    </option>
+    <option name="org.rust.CRATE">
+      <value />
+    </option>
+    <option name="org.rust.ENUM">
+      <value>
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.ENUM_VARIANT">
+      <value>
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.FUNCTION">
+      <value />
+    </option>
+    <option name="org.rust.FUNCTION_CALL">
+      <value />
+    </option>
     <option name="org.rust.LIFETIME">
       <value>
         <option name="FOREGROUND" value="767676" />
@@ -26197,7 +26228,46 @@
     <option name="org.rust.MACRO">
       <value />
     </option>
+    <option name="org.rust.METHOD">
+      <value />
+    </option>
+    <option name="org.rust.METHOD_CALL">
+      <value />
+    </option>
+    <option name="org.rust.MUT_SELF_PARAMETER">
+      <value>
+        <option name="EFFECT_COLOR" value="909090" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.rust.SELF_EXPRESSION">
+      <value />
+    </option>
+    <option name="org.rust.SELF_PARAMETER">
+      <value />
+    </option>
+    <option name="org.rust.STATIC">
+      <value />
+    </option>
+    <option name="org.rust.STRUCT">
+      <value />
+    </option>
+    <option name="org.rust.TRAIT">
+      <value />
+    </option>
+    <option name="org.rust.TRAIT_METHOD">
+      <value />
+    </option>
+    <option name="org.rust.TRAIT_METHOD_CALL">
+      <value />
+    </option>
+    <option name="org.rust.TYPE_ALIAS">
+      <value />
+    </option>
     <option name="org.rust.TYPE_PARAMETER">
+      <value />
+    </option>
+    <option name="org.rust.UNION">
       <value />
     </option>
   </attributes>
