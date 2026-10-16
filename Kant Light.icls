@@ -53,6 +53,11 @@
         <option name="FOREGROUND" value="262626" />
       </value>
     </option>
+    <option name="CONSOLE_RANGE_TO_EXECUTE">
+      <value>
+        <option name="EFFECT_COLOR" value="b2b2b2" />
+      </value>
+    </option>
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="EFFECT_COLOR" value="b0b0b" />
@@ -300,6 +305,9 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="JS.GLOBAL_FUNCTION">
+      <value />
+    </option>
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
@@ -316,7 +324,9 @@
       <value />
     </option>
     <option name="JSON.PROPERTY_KEY">
-      <value />
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
     </option>
     <option name="JSON.STRING">
       <value />
@@ -26205,14 +26215,10 @@
       <value />
     </option>
     <option name="org.rust.ENUM">
-      <value>
-        <option name="FONT_TYPE" value="2" />
-      </value>
+      <value />
     </option>
     <option name="org.rust.ENUM_VARIANT">
-      <value>
-        <option name="FONT_TYPE" value="2" />
-      </value>
+      <value />
     </option>
     <option name="org.rust.FUNCTION">
       <value />
